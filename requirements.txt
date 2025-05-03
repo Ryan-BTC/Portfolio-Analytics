@@ -1,0 +1,2 @@
+QuantStats~=0.0.59
+pandas~=2.1.4
