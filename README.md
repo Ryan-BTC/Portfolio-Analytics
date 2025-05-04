@@ -61,7 +61,7 @@ Each report will include:
 - Sharpe Ratio: A measure of risk-adjusted return.
 - Sortino Ratio: A ratio similar to Sharpe but focuses on downside risk.
 - Maximum Drawdown: The largest loss from a peak to a trough in the portfolio.
-- Time in the market
+- Time in the market, and more...
 
 Example metrics from the report:
 
@@ -85,10 +85,10 @@ Based on the analysis of returns across the different timeframes, the performanc
 
 | Timeframe             | Performance Ranking | Notes                                                                                                                                                |
 |-----------------------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **4-hour** (`4h`)     | 🥇 Best Performing  | The **4-hour** timeframe provided the highest returns, showing strong outperformance against the BTC benchmark.                                      |
-| **1-day** (`1d`)      | 🥈 Second Best      | The **1-day** timeframe performed well but generated lower returns compared to the 4-hour strategy.                                                  |
+| **4-hour** (`1d`)     | 🥇 Best Performing  | The **1-day** timeframe provided the highest returns, showing strong outperformance against the BTC benchmark.                                       |
+| **1-day** (`4h`)      | 🥈 Second Best      | The **4-hour** timeframe performed well but generated lower returns compared to the 4-hour strategy.                                                 |
 | **1-hour** (`1h`)     | 🥉 Third Place      | The **1-hour** timeframe showed decent results but underperformed compared to the higher timeframes.                                                 |
-| **15-minute** (`15m`) | ❌ Worst Performing  | The **15-minute** timeframe had the lowest returns, likely due to higher noise and smaller market moves, resulting in less profitable opportunities. |
+| **15-minute** (`15m`) | ❌ Worst Performing  | The **15-minute** timeframe had the lowest returns, likely due to a higher number of trades executed, and the fees significantly eroded the capital. |
 
 ### ✅ Conclusion
 This project allows you to:
